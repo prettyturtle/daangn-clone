@@ -1,6 +1,6 @@
 /* common */
 body {
-  /* height: 6000px; */
+  font-family: 'Roboto', sans-serif;
 }
 header,
 section,
@@ -478,5 +478,65 @@ footer .inner .menu .list>li {
 
 footer .inner .info {
   border-top: 1px solid rgba(255,255,255,0.1);
-
+}
+footer .inner .info .copyright {
+  /* background-color: greenyellow; */
+  margin-top: 32px;
+}
+footer .inner .info .copyright .email-list,
+footer .inner .info .copyright .tel-list,
+footer .inner .info .copyright .sns-list {
+  display: flex;
+  margin-bottom: 4px;
+}
+footer .inner .info .email-list .email {
+  color: #ADB5BD;
+  font-size: 14px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+footer .inner .info .email-list .email>a {
+  text-decoration: none;
+  color: #868E96;
+  font-size: 14px;
+}
+footer .inner .info .copyright .tel-list {
+  margin-top: 16px;
+}
+footer .inner .info .copyright .tel-list .tel {
+  color: #868E96;
+  font-size: 14px;
+  margin-right: 8px;
+}
+footer .inner .info .copyright .sns-list {
+  margin: 32px 0;
+}
+footer .inner .info .copyright .sns-list .sns {
+  margin-right: 24px;
+}
+footer .inner .info .copyright .sns-list .sns>img {
+}
+footer .inner .info .copyright .sns-list .global {
+  margin-left: 26px;
+}
+footer .inner .info .copyright .sns-list .global-link {
+  margin-left: 6px;
+}
+footer .inner .info .copyright .sns-list .global-link>select {
+  font-size: 16px;
+  text-decoration: underline;
+  background-color: #495057;
+  border: none;
+  outline: none;
+  color: #ADB5BD;
+  appearance: none;
+  line-height: 24px;
+}
+footer .inner .info .copyright .sns-list .global>img {
+  width: 24px;
+}
+footer .inner .info .copyright .copyright-text {
+  color: #868E96;
+  font-size: 14px;
+  margin: 4px 0;
 }
