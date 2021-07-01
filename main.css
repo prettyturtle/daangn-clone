@@ -60,10 +60,12 @@ header .inner .search-bar .search-input {
   outline: none;
   border: none;
   color: #212529;
-  opacity: .3;
   font-size: 16px;
   background-color: transparent;
   display: flex;
+}
+header .inner .search-bar .search-input::placeholder {
+  opacity: .3;
 }
 header .inner .search-bar .search-btn {
   width: 19px;
